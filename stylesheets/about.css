@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/guy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-family: 'oxygen';
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 10% 50% 10px 10%;
+    background-color: rgba(255, 255, 255, 0.205);
+}

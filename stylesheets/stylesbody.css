@@ -1,0 +1,29 @@
+.intro {
+    margin: auto;
+    width: 50%;
+    padding: 23% 0 0 0 ;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(39, 39, 39) ;
+    min-height: 100%;
+}
+
+.welcome {
+    color: rgb(241, 241, 241);
+    font-family: 'M Plus 1p';
+    font-size: 90px;
+}
+
+.intro_text {
+    color: rgb(241, 241, 241);
+    font-family: 'M Plus 1p';
+    font-size: 16px;
+}
+
+.terms_conditions {
+    margin-top: 30%;
+    padding: 50px 30px 20px 30px;
+    background-color: white;
+    font-family: 'M Plus 1p';
+    font-size: 15px;
+}

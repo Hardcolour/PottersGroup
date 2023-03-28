@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 39, 39);
+    
+}
+
+.logo {
+    padding: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 35%;
+}
+
+p {
+    font-family: 'oxygen';
+    font-size: 16px;
+    color: rgb(241, 241, 241);
+    padding: 50px 30px 20px 30px;
+}

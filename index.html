@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <head>
+        <title>navibar</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="stylesheets/stylesbody.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Images/logo.png">
+            <nav>
+                <Ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="comingsoon.html">Services</a></li>
+                    <li class="services"><a href="comingsoon.html">Support</a></li>
+                        <div class="dropdown-options">
+                            <a href="comingsoon.html">Health Practitioner</a>
+                            <a href="comingsoon.html">Distributor (Finished Goods)</a>
+                            <a href="comingsoon.html">Food Service</a>
+                            <a href="comingsoon.html">Supplier/Raw Ingredient Distributor</a>
+                            <a href="comingsoon.html">Manufacturer</a>
+                            <a href="comingsoon.html">Business Services</a>
+                            <a href="comingsoon.html">Investor</a>
+                            <a href="comingsoon.html">Real Estate</a>
+                            <a href="comingsoon.html">New Innovation</a>    
+                        </div>
+                    <li><a href="about.html">About</a></li>
+                </Ul>
+            </nav>
+            <a class="cta" href="signup.html"><button>Sign up</button></a>
+        </header>
+
+        <div class="intro">
+            <P class="welcome">
+                welcome
+            </P>
+
+            <p class="intro_text">
+                We promote young entrepreneurs as it can foster innovation, creativity, and economic growth by providing them with support, mentorship, and resources to turn their ideas into successful ventures.
+            </p>
+        
+        </div>
+        
+        <div>
+            <P  class="terms_conditions">
+                Acceptable Use: Outlines the types of behavior that are allowed or prohibited on the website.
+                Intellectual Property: Addresses ownership of the content, images, and other intellectual property displayed on the website.
+                Privacy Policy: Explains how the website collects and uses personal data, and how users can control their data.
+                Disclaimers and Limitations of Liability: Sets out the website owner's limitations of liability and any disclaimers or warranties regarding the accuracy, reliability, and completeness of the website's content.
+                Termination: Describes the circumstances under which the website owner may terminate a user's account or access to the website.
+                Jurisdiction and Governing Law: Specifies the jurisdiction and governing law that will apply to any disputes that may arise from the use of the website.
+                Changes to the Terms and Conditions: Explains how and when the terms and conditions may be modified and how users will be notified of any changes.
+                Note that these are just some common examples and the specific terms and conditions of a website may vary depending on the nature of the website and the legal requirements of the jurisdiction it operates in.
+            </P>
+        </div>    
+
+        <script type="text/javascript">
+            window.addEventlistener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY < 0);
+        })
+        </script>
+    </body>
+
+</html>    
