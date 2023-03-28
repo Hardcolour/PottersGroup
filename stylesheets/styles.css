@@ -47,10 +47,7 @@ li, a, button {
 }
 
 
-
-
-
-.services {
+.nav_links {
     display: inline-block;
     position: relative;
 }
@@ -64,7 +61,7 @@ li, a, button {
     box-shadow: 0px 10px 10px 0px rgba(241, 241, 241, 0.062);
 }
   
-.services:hover .dropdown-options {
+.nav_links:hover .dropdown-options {
    display: block;
 }
 
@@ -82,11 +79,6 @@ li, a, button {
   background-color: rgb(241, 241, 241);
   border-radius:5px;
 }
-
-
-
-
-
 
 
 
